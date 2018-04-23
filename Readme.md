@@ -71,28 +71,28 @@ It is preferable to separate page objects into individual files that end with .p
 
 1.    WebdriverIO
 
-npm install webdriverio
+      npm install webdriverio
 
 2.    Mocha
 
-npm install mocha
+      npm install mocha
 
 3.    Chai
 
-npm install chai
+      npm install chai
 
 4. Selenium Standlone
 
-npm selenium standalone
+      npm selenium standalone
 
 ### How to run :
 
 1.    Start Selenium Server
 
-selenium-standalone start
+      selenium-standalone start
 
 2.    Run Tests
-./node_modules/.bin/wdio wdio.conf.js
+      ./node_modules/.bin/wdio wdio.conf.js
 
 
 
