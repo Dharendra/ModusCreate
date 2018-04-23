@@ -60,8 +60,8 @@ Chai https://chaijs.com
 There are some pages in Budget App where tests interact with them frequenlty . A Page Object simply models these as objects within the test code. This reduces the amount of duplicated code and means that if the UI changes, the fix need only be applied in one place. In other wards one of the challenges of writing test automation is keeping  [selectors] (classes, id's, or xpath' etc.) up to date with the latest version of app code.
 
 Budget App has two page object files
-    #### budget.page.js
-    #### report.page.js
+#### budget.page.js
+#### report.page.js
 
 Instead of including  selectors in  Spec file,  they are placed  in a <pagename>.js file and its easier to manage all the selectors and methods together.
 
