@@ -35,17 +35,17 @@ Chai https://chaijs.com
     
 1.      Navigate to Budget page
 2.      Add Income Type
-3.      Check if Working Balance and Total inflow amount is updates"
+3.      Check if Working Balance and Total inflow amount is updated
 4.      Navigate to Reports page
-5.      Check if Total Inflow amount is increased and update in Inflow vs Outflow Chart.
+5.      Check if Total Inflow amount is increased and updated in Inflow vs Outflow Chart.
 
 ##### Add Expense : 
     
 1.      Navigate to Budget page
 2.      Add Expense (Misc) Type
-3.      Check if Working Balance and Total Outflow amount is updates"
+3.      Check if Working Balance and Total Outflow amount is updated
 4.      Navigate to Reports page
-5.      Check if Total Outflow amount is increased and update in Inflow vs Outflow Chart.
+5.      Check if Total Outflow amount is increased and updated in Inflow vs Outflow Chart.
 6.      Navigate to Spending Chart
 7.      Check if Misc Amount in updated Chart
 
@@ -63,9 +63,9 @@ Budget App has two page object files
     #### budget.page.js
     #### report.page.js
 
-Instead of including  selectors in  Spec file,  place them in a <pagename>.js file where we can manage all these selectors and methods together.
+Instead of including  selectors in  Spec file,  they are placed  in a <pagename>.js file and its easier to manage all the selectors and methods together.
 
-It is preferable to separate page objects into individual files that end with .page.js. These will require the basic page.js prototype construct / abstract class and create new objects for each individual page.
+It is preferable to separate page objects into individual files that end with .page.js. This  requires the basic page.js prototype construct / abstract class and create new objects for each individual page.
 
 ### Installation and Running Automation Tests 
 
