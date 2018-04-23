@@ -92,7 +92,7 @@ It is preferable to separate page objects into individual files that end with .p
       selenium-standalone start
 
 2.    Run Tests :
-      ./node_modules/.bin/wdio wdio.conf.js
+        ./node_modules/.bin/wdio wdio.conf.js
 
 
 
