@@ -87,11 +87,11 @@ It is preferable to separate page objects into individual files that end with .p
 
 ### How to run :
 
-1.    Start Selenium Server
+1.    Start Selenium Server :
 
       selenium-standalone start
 
-2.    Run Tests
+2.    Run Tests :
       ./node_modules/.bin/wdio wdio.conf.js
 
 
