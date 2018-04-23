@@ -7,7 +7,7 @@
 The Test plan consists of test scenarios that will cover functional or User-based testing which means tests are written to simulate user actions on Budgeting Sample Application. Unit testing is Out of Scope.
 Note : Since the app is about adding items,  scenarios like refreshing the page is out of scope as well.
 
-###Tech Stack
+### Tech Stack
 node ( Version 6^ ) https://nodejs.org
 
 selenium-standalone https://www.npmjs.com/package/selenium-standalone
@@ -69,27 +69,29 @@ It is preferable to separate page objects into individual files that end with .p
 
 ### Installation and Running Automation Tests 
 
-1. WebdriverIO
+1.    WebdriverIO
 
 npm install webdriverio
 
-2. Mocha
+2.    Mocha
 
 npm install mocha
 
-3. Chai
+3.    Chai
 
 npm install chai
 
 4. Selenium Standlone
 
-###How to run :
+npm selenium standalone
 
-1. Start Selenium Server
+### How to run :
+
+1.    Start Selenium Server
 
 selenium-standalone start
 
-2. Run Tests
+2.    Run Tests
 ./node_modules/.bin/wdio wdio.conf.js
 
 
